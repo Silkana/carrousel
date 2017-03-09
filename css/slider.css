@@ -1,0 +1,37 @@
+* {
+	font-family: "Open Sans";
+}
+
+nav, li, button {
+	display: inline-block;
+}
+
+body {
+	background-image: url(../images/concrete.png);
+}
+
+img {
+	border: solid 15px white;
+	border-radius: 15px;
+    transform: rotateZ(-10deg);
+    float: right;
+    position: relative;
+    left: -70px;
+    width: 640px;
+	height: 390px;
+}
+
+.clear {
+	clear: both;
+}
+
+main div {
+	text-align: right;
+}
+
+figcaption {
+	font-size: 2em;
+	transform: rotateZ(-10deg);
+	color: #2B8782;
+	margin: 0px 0px 0px 350px;
+}
